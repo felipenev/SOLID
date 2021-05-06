@@ -1,4 +1,4 @@
-package br.com.alura.rh.model;
+package br.com.company.rh.model;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
