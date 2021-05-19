@@ -23,6 +23,10 @@ public class Funcionario {
 		this.dataUltimoReajuste = LocalDate.now();
 	}
 
+	public void promover(Cargo novoCargo) {
+		this.setCargo(novoCargo);
+	}
+
 	public String getNome() {
 		return nome;
 	}

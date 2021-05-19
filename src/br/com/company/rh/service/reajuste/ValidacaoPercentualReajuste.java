@@ -1,4 +1,4 @@
-package br.com.company.rh.service;
+package br.com.company.rh.service.reajuste;
 
 import br.com.company.rh.ValidacaoException;
 import br.com.company.rh.model.Funcionario;
