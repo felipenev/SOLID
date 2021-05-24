@@ -21,12 +21,24 @@ public class Funcionario {
 		this.dadosPessoais.setCargo(novoCargo);
 	}
 
-	public LocalDate getDataUltimoReajuste() {
-		return dataUltimoReajuste;
+	public String getNome() {
+		return dadosPessoais.getNome();
 	}
 
-	public void setDataUltimoReajuste(LocalDate dataUltimoReajuste) {
-		this.dataUltimoReajuste = dataUltimoReajuste;
+	public String getCpf() {
+		return dadosPessoais.getCpf();
+	}
+
+	public Cargo getCargo() {
+		return dadosPessoais.getCargo();
+	}
+
+	public BigDecimal getSalario() {
+		return dadosPessoais.getSalario();
+	}
+
+	public LocalDate getDataUltimoReajuste() {
+		return dataUltimoReajuste;
 	}
 
 }

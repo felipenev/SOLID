@@ -20,16 +20,8 @@ public class DadosPessoais {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public String getCpf() {
         return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
     }
 
     public Cargo getCargo() {
@@ -47,4 +39,5 @@ public class DadosPessoais {
     public void setSalario(BigDecimal salario) {
         this.salario = salario;
     }
+
 }
